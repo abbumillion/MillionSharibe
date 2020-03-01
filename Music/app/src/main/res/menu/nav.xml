@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:visible="true"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:checked="true"
+        android:title="dashboard" />
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="home" />
+    <item
+        android:id="@+id/profile"
+        android:visible="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="profile" />
+    <item
+        android:id="@+id/settings"
+        android:visible="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Settings" />
+</menu>
